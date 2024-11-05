@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://seo-test-pi.vercel.app/sitemap.xml
