@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header className={styles.header}>Seungwon's simple site</header>
+      <header className={styles.header}>Seungwon simple site</header>
 
       <main className={styles.main}>
         <h1>세상에서 가장 간단한 사이트입니다</h1>
@@ -21,6 +21,7 @@ export default function Home() {
             <li>첫번째 시도라서 사진은 넣지 않겠습니다. </li>
           </ol>
         </article>
+
         <div>
           <h3>개발</h3>
           <h3>웹사이트</h3>
