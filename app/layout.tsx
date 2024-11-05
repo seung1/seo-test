@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -51,6 +52,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <Analytics />
       <meta
         name="google-site-verification"
         content="FCZPzvQhGCLae0VdfPIbLKxE-g2EH-pLM6QRUVBARic"
