@@ -1,5 +1,6 @@
 User-agent: *
 
 Allow: /
+Allow: /about
 
 Sitemap: https://seo-test-pi.vercel.app/sitemap.xml
