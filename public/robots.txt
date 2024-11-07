@@ -2,5 +2,6 @@ User-agent: *
 
 Allow: /
 Allow: /about
+Allow: /bonus
 
 Sitemap: https://seo-test-pi.vercel.app/sitemap.xml

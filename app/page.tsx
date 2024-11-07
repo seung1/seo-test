@@ -1,10 +1,10 @@
+import PageButtonList from "@/components/PageButtonList";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>Seungwon simple site</header>
-
       <main className={styles.main}>
         <h1>세상에서 가장 간단한 사이트입니다</h1>
         <h2>
@@ -33,8 +33,11 @@ export default function Home() {
           <h3>검색이 되게</h3>
         </div>
 
-        <div className={styles.ctas}></div>
+        <div className={styles.ctas}>
+          <PageButtonList />
+        </div>
       </main>
+
       <footer className={styles.footer}>
         <div>만든이 : Seungwon</div>
       </footer>

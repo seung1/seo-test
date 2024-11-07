@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import styles from "../page.module.css";
+import PageButtonList from "@/components/PageButtonList";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -66,7 +67,9 @@ const About = () => {
           <h3>검색이 되게</h3>
         </div>
 
-        <div className={styles.ctas}></div>
+        <div className={styles.ctas}>
+          <PageButtonList />
+        </div>
       </main>
       <footer className={styles.footer}>
         <div>만든이 : Seungwon</div>
