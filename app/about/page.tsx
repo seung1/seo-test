@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: `승원이의 간단한 사이트`,
       description: `간단한 사이트인데 이게 수정 반영되는데 좀 걸리는거 같아요`,
-      url: "https://seo-test-pi.vercel.app",
+      url: "https://seo-test-pi.vercel.app/about",
       type: "website",
       locale: "ko_KR",
       images: [
